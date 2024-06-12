@@ -1,0 +1,22 @@
+{
+    "id":  "dev.yofukashino.ClickPerSecond",
+    "name":  "ClickPerSecond",
+    "description":  "Shows Clicks per second on discord",
+    "author":  {
+                   "discordID":  "1121961711080050780",
+                   "name":  "Nanakusa",
+                   "github":  "YofukashiNo"
+               },
+    "version":  "1.0.0",
+    "updater":  {
+                    "id":  "YofukashiNo/ClickPerSecond",
+                    "type":  "github"
+                },
+    "license":  "MIT",
+    "type":  "replugged-plugin",
+    "renderer":  "src/index.ts",
+    "source":  "https://github.com/YofukashiNo/ClickPerSecond",
+    "image":  [
+                  "https://i.imgur.com/14CNs3a.png?CHANGE-THIS-URL"
+              ]
+}
