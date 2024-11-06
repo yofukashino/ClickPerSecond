@@ -2,7 +2,7 @@ import Types from "./types";
 
 export default [
   {
-    find: "Messages.DISCODO_DISABLED",
+    find: '("discodo")',
     replacements: [
       {
         match: /(\.BUTTON_HOME}}},children:)(\(0,.\.jsx\)\(.\..,{}\))/,
@@ -10,5 +10,5 @@ export default [
           `${prefix}replugged.plugins.getExports("dev.yofukashino.ClickPerSecond")?._CPS?.(${homeButton})`,
       },
     ],
-  },
+  },  
 ] as Types.DefaultTypes.PlaintextPatch[];
