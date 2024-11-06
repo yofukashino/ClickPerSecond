@@ -1,6 +1,6 @@
 {
   "name": "click-per-second",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shows Clicks per second on discord",
   "engines": {
     "node": ">=20.0.0",
